@@ -1,0 +1,252 @@
+[
+  {
+    "materia": "Mecánica I",
+    "semestre": 1,
+    "estado": "N"
+  },
+  {
+    "materia": "Álgebra y geometría Analítica",
+    "semestre": 1,
+    "estado": "N"
+  },
+  {
+    "materia": "Cálculo diferencial",
+    "semestre": 1,
+    "estado": "N"
+  },
+  {
+    "materia": "Introducción a la programación",
+    "semestre": 1,
+    "estado": "N"
+  },
+  {
+    "materia": "Matemáticas discretas",
+    "semestre": 1,
+    "estado": "N"
+  },
+  {
+    "materia": "Cálculo integral",
+    "semestre": 2,
+    "estado": "N"
+  },
+  {
+    "materia": "Álgebra lineal",
+    "semestre": 2,
+    "estado": "N"
+  },
+  {
+    "materia": "Mecánica II",
+    "semestre": 2,
+    "estado": "N"
+  },
+  {
+    "materia": "Introducción a la ingeniería en software",
+    "semestre": 2,
+    "estado": "N"
+  },
+  {
+    "materia": "Cursos optativos de Ciclo Básico I",
+    "semestre": 2,
+    "estado": "N"
+  },
+  {
+    "materia": "Cálculo vectorial",
+    "semestre": 3,
+    "estado": "N"
+  },
+  {
+    "materia": "Ecuaciones diferenciales ordinarias",
+    "semestre": 3,
+    "estado": "N"
+  },
+  {
+    "materia": "Termodinámica y fluidos",
+    "semestre": 3,
+    "estado": "N"
+  },
+  {
+    "materia": "Programación orientada a objetos",
+    "semestre": 3,
+    "estado": "N"
+  },
+  {
+    "materia": "Cursos optativos de Ciclo Básico II",
+    "semestre": 3,
+    "estado": "N"
+  },
+  {
+    "materia": "Métodos numéricos",
+    "semestre": 4,
+    "estado": "N"
+  },
+  {
+    "materia": "Estadística y probabilidad",
+    "semestre": 4,
+    "estado": "N"
+  },
+  {
+    "materia": "Electricidad y magnetismo",
+    "semestre": 4,
+    "estado": "N"
+  },
+  {
+    "materia": "Estructura de datos",
+    "semestre": 4,
+    "estado": "N"
+  },
+  {
+    "materia": "Cursos optativos de Ciclo Básico III",
+    "semestre": 4,
+    "estado": "N"
+  },
+  {
+    "materia": "Análisis de algoritmos",
+    "semestre": 5,
+    "estado": "N"
+  },
+  {
+    "materia": "Teoría de la computación",
+    "semestre": 5,
+    "estado": "N"
+  },
+  {
+    "materia": "Construcción y evolución del software",
+    "semestre": 5,
+    "estado": "N"
+  },
+  {
+    "materia": "Bases de datos",
+    "semestre": 5,
+    "estado": "N"
+  },
+  {
+    "materia": "Análisis de requisitos",
+    "semestre": 5,
+    "estado": "N"
+  },
+  {
+    "materia": "Programación web",
+    "semestre": 6,
+    "estado": "N"
+  },
+  {
+    "materia": "Sistemas operativos",
+    "semestre": 6,
+    "estado": "N"
+  },
+  {
+    "materia": "Aseguramiento de la calidad del software",
+    "semestre": 6,
+    "estado": "N"
+  },
+  {
+    "materia": "Análisis y modelamiento de software",
+    "semestre": 6,
+    "estado": "N"
+  },
+  {
+    "materia": "Programación de sistemas",
+    "semestre": 6,
+    "estado": "N"
+  },
+  {
+    "materia": "Arquitectura de computadoras",
+    "semestre": 7,
+    "estado": "N"
+  },
+  {
+    "materia": "Lenguajes de programación",
+    "semestre": 7,
+    "estado": "N"
+  },
+  {
+    "materia": "Técnicas de pruebas de software",
+    "semestre": 7,
+    "estado": "N"
+  },
+  {
+    "materia": "Diseño de software",
+    "semestre": 7,
+    "estado": "N"
+  },
+  {
+    "materia": "Metodología de la investigación",
+    "semestre": 7,
+    "estado": "N"
+  },
+  {
+    "materia": "Redes de computadoras",
+    "semestre": 8,
+    "estado": "N"
+  },
+  {
+    "materia": "Normatividad y legislación",
+    "semestre": 8,
+    "estado": "N"
+  },
+  {
+    "materia": "Arquitectura de software",
+    "semestre": 8,
+    "estado": "N"
+  },
+  {
+    "materia": "Cursos optativos de Ciclo Superior I",
+    "semestre": 8,
+    "estado": "N"
+  },
+  {
+    "materia": "Cursos optativos de Ciclo Superior II",
+    "semestre": 8,
+    "estado": "N"
+  },
+  {
+    "materia": "Sistemas distribuidos",
+    "semestre": 9,
+    "estado": "N"
+  },
+  {
+    "materia": "Administración de proyectos I",
+    "semestre": 9,
+    "estado": "N"
+  },
+  {
+    "materia": "Métricas de software",
+    "semestre": 9,
+    "estado": "N"
+  },
+  {
+    "materia": "Cursos optativos de Ciclo Superior III",
+    "semestre": 9,
+    "estado": "N"
+  },
+  {
+    "materia": "Cursos optativos de Ciclo Superior IV",
+    "semestre": 9,
+    "estado": "N"
+  },
+  {
+    "materia": "Diseño de experimentos en ingeniería de software",
+    "semestre": 10,
+    "estado": "N"
+  },
+  {
+    "materia": "Administración de proyectos II",
+    "semestre": 10,
+    "estado": "N"
+  },
+  {
+    "materia": "Gestión tecnológica",
+    "semestre": 10,
+    "estado": "N"
+  },
+  {
+    "materia": "Cursos optativos de Ciclo Superior V",
+    "semestre": 10,
+    "estado": "N"
+  },
+  {
+    "materia": "Cursos optativos de Ciclo Superior VI",
+    "semestre": 10,
+    "estado": "N"
+  }
+]

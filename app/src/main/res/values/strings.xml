@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Agenda Uacm</string>
+    <string name="tab_text_1">Inicio</string>
+    <string name="tab_text_2">Horario</string>
+    <string name="tab_text_3">Avances</string>
+
+    <!--COLEGIO DE HUMANIDADES Y CIENCIAS SOCIALES-->
+    <string-array name="humanidades_ciencias">
+        <item>Arte y Patrimonio Cultural</item>
+        <item>Ciencia Política y Administración Urbana</item>
+        <item>Ciencias Sociales</item>
+        <item>Comunicación y Cultura</item>
+        <item>Creación Literaria</item>
+        <item>Filosofía e Historia de las Ideas</item>
+        <item>Historia y Sociedad Contemporánea</item>
+        <item>Derecho</item>
+    </string-array>
+    <!--COLEGIO DE CIENCIAS Y HUMANIDADES-->
+    <string-array name="ciencias_humanidades">
+        <item>Ciencias Ambientales y Cambio Climático</item>
+        <item>Nutrición y Salud</item>
+        <item>Promoción de la Salud</item>
+        <item>Protección Civil y Gestión de Riesgos</item>
+    </string-array>
+    <!--COLEGIO DE CIENCIA Y TECNOLOGÍA-->
+    <string-array name="ciencia_tecnologia">
+        <item>Ciencias Genómicas</item>
+        <item>Ingeniería en Sistemas de Transporte Urbano</item>
+        <item>Ingeniería en Sistemas Electrónicos Industriales</item>
+        <item>Licenciatura en Ingeniería de Software</item>
+        <item>Ingeniería en Sistemas Electrónicos y de Telecomunicaciones</item>
+        <item>Ingeniería en Sistemas Energéticos</item>
+        <item>Modelación Matemática</item>
+    </string-array>
+
+    <string-array name="colegios">
+        <item>Humanidades y Ciencias Sociales</item>
+        <item>Ciencias y Humanidades</item>
+        <item>Ciencia Y Tecnología</item>
+    </string-array>
+
+    <string-array name="horas">
+        <item>07:00 a.m. - 08:30 a.m.</item>
+        <item>08:30 a.m. - 10:00 a.m.</item>
+        <item>10:00 a.m. - 11:30 a.m.</item>
+        <item>11:30 a.m. - 01:00 p.m.</item>
+        <item>01:00 p.m. - 02:30 p.m.</item>
+        <item>02:30 p.m.- 04:00 p.m.</item>
+        <item>04:00 p.m.- 05:30 p.m.</item>
+        <item>05:30 p.m.- 07:00 p.m.</item>
+        <item>07:00 p.m.- 8:30 p.m.</item>
+        <item>08:30 p.m.- 10:00 p.m.</item>
+    </string-array>
+
+
+</resources>
