@@ -3,42 +3,28 @@ package com.mcr.agendauacm.sections.avances;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.media.Image;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextClock;
 import android.widget.TextView;
-import android.widget.TimePicker;
 import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.mcr.agendauacm.API.API;
 import com.mcr.agendauacm.API.APIService.UacmService;
 import com.mcr.agendauacm.R;
-import com.mcr.agendauacm.model.City;
 import com.mcr.agendauacm.model.Materia;
 import com.mcr.agendauacm.model.MateriaDBHelper;
-import com.mcr.agendauacm.model.ParseJson;
-import com.mcr.agendauacm.ui.main.SectionsPagerAdapter;
 
-import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -46,8 +32,6 @@ import java.util.Random;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class AvancesFragment extends Fragment {
 
@@ -133,7 +117,7 @@ public class AvancesFragment extends Fragment {
 
         }
 
-        adapterRestante = new AdapterRestante(dbHelper.getMateriasRestantes(),R.layout.materias_restantes_layout);
+        adapterRestante = new AdapterRestante(dbHelper.getMateriasRestantes(),R.layout.materias_restantes_item);
         recyclerMateriasFaltantes.setLayoutManager(layoutManager);
         recyclerMateriasFaltantes.setAdapter(adapterRestante);
 
@@ -145,7 +129,7 @@ public class AvancesFragment extends Fragment {
     private void inicializacion(View view)
     {
         tvPorcentaje =(TextView) view.findViewById(R.id.tvPorcentaje);
-
+        tvMateriasRestantes = (TextView) view.findViewById(R.id.tvNumMateriasRestantes);
         animNivel=(LottieAnimationView)view.findViewById(R.id.lottieNivel);
 
         recyclerMateriasFaltantes=(RecyclerView) view.findViewById(R.id.recyclerFaltantes);
