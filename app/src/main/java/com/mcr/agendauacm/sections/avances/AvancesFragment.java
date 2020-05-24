@@ -45,6 +45,7 @@ public class AvancesFragment extends Fragment {
     private Button btMateriaCertificada;
     private String id;
     private LottieAnimationView animNivel;
+    private TextView tvNumMateriasRestantes;
 
 
 
@@ -116,8 +117,10 @@ public class AvancesFragment extends Fragment {
         {
 
         }
-
+        List<Materia> materiasRestantes = dbHelper.getMateriasRestantes();
+        String numMateriasRestantes = String.valueOf(materiasRestantes.size());
         adapterRestante = new AdapterRestante(dbHelper.getMateriasRestantes(),R.layout.materias_restantes_item);
+        tvNumMateriasRestantes.setText(numMateriasRestantes);
         recyclerMateriasFaltantes.setLayoutManager(layoutManager);
         recyclerMateriasFaltantes.setAdapter(adapterRestante);
 
@@ -129,9 +132,8 @@ public class AvancesFragment extends Fragment {
     private void inicializacion(View view)
     {
         tvPorcentaje =(TextView) view.findViewById(R.id.tvPorcentaje);
-        tvMateriasRestantes = (TextView) view.findViewById(R.id.tvNumMateriasRestantes);
         animNivel=(LottieAnimationView)view.findViewById(R.id.lottieNivel);
-
+        tvNumMateriasRestantes =(TextView) view.findViewById(R.id.tvNumMaterias);
         recyclerMateriasFaltantes=(RecyclerView) view.findViewById(R.id.recyclerFaltantes);
         layoutManager = new LinearLayoutManager(getContext());
         btMateriaCertificada = (Button) view.findViewById(R.id.btAgregaMateriaAprobada);
